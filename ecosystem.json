@@ -8,7 +8,7 @@
         "user" : "ubuntu",
         "host" : ["188.166.75.251"],
         "ref"  : "origin/master",
-        "repo" : "https://github.com/Tsourdox/lansering.git",
+        "repo" : "git@github.com:Tsourdox/lansering.git",
         "path" : "/projekt",
         "post-deploy" : "npm install"
        }

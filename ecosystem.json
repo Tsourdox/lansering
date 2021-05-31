@@ -10,7 +10,7 @@
         "ref"  : "origin/master",
         "repo" : "https://github.com/Tsourdox/lansering.git",
         "path" : "/root/projekt/lansering",
-        "post-deploy" : "npm install"
+        "post-deploy" : "npm install && pm2 startOrRestart"
        }
     }
  }

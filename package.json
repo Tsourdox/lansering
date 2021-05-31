@@ -1,0 +1,15 @@
+{
+  "name": "lansering",
+  "version": "1.0.0",
+  "description": "Saker vi kommer prata om idag: * CI & CD * Github Actions * VPS (Digital Ocean) * SSH * PM2 & Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

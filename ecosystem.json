@@ -1,0 +1,16 @@
+{
+    "apps" : [{
+       "name" : "davids-app",
+       "script" : "server.js"
+    }],
+    "deploy" : {
+      "production" : {
+        "user" : "ubuntu",
+        "host" : ["192.168.0.13"],
+        "ref"  : "origin/master",
+        "repo" : "https://github.com/Tsourdox/lansering.git",
+        "path" : "/projekt",
+        "post-deploy" : "npm install"
+       }
+    }
+ }

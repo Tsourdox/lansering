@@ -9,7 +9,7 @@
         "host" : ["188.166.75.251"],
         "ref"  : "origin/master",
         "repo" : "https://github.com/Tsourdox/lansering.git",
-        "path" : "/projekt",
+        "path" : "~/projekt/lansering",
         "post-deploy" : "npm install"
        }
     }

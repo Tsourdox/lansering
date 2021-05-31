@@ -4,7 +4,8 @@
   "description": "Saker vi kommer prata om idag: * CI & CD * Github Actions * VPS (Digital Ocean) * SSH * PM2 & Docker",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "pm2 deploy production"
   },
   "keywords": [],
   "author": "",

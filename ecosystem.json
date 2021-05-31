@@ -5,7 +5,7 @@
     }],
     "deploy" : {
       "production" : {
-        "user" : "ubuntu",
+        "user" : "root",
         "host" : ["188.166.75.251"],
         "ref"  : "origin/master",
         "repo" : "git@github.com:Tsourdox/lansering.git",
